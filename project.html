@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fitness School</title>
+</head>
+<style>
+    body {
+        padding: 0px;
+        margin: 0px;
+        background: url(bg1.jpg);
+        /* background-attachment: fixed; */
+        background-size: cover;
+        height: 2000px;
+    }
+
+    .left {
+        /* border: 2px solid green; */
+        display: inline-block;
+        position: absolute;
+        top: 20px;
+        left: 65px;
+        padding: 8px 10px;
+    }
+
+    .left img {
+        width: 40px;
+        height: 50px;
+        margin-left: 45px;
+        filter: invert(75%);
+    }
+
+    h2 {
+        text-align: center;
+        margin: 0px;
+        padding: 0px;
+        font-size: 20px;
+    }
+    h2 a{
+        text-decoration: none;
+        color: rgba(255, 255, 255, 0.774);
+    }
+    .mid {
+        display: block;
+        /* border: 2px solid red; */
+        width: 44%;
+        margin: 40px auto;
+    }
+
+    .navbar {
+        display: inline-block;
+    }
+
+    .navbar li {
+        box-sizing: border-box;
+        display: inline-block;
+    }
+
+    .navbar li a {
+        color: rgba(255, 255, 255, 0.774);
+        padding: 6px 13px;
+        margin: 13px 5px;
+        text-decoration: none;
+        font-size: 20px;
+        border-radius: 10px;
+    }
+
+    .navbar li a:hover {
+        color: black;
+        padding: 8px 12px;
+        background-color: rgb(199, 186, 186);
+        text-decoration: underline;
+    }
+
+    .right {
+        /* border: 2px solid blue; */
+        display: inline-block;
+        position: absolute;
+        top: 30px;
+        right: 30px;
+    }
+
+    .btn {
+        color: black;
+        background-color: rgb(194, 189, 189);
+        margin: 6px 2px;
+        padding: 7px 7px;
+        border-radius: 10px;
+        cursor: pointer;
+    }
+    .container{
+        display: inline-block;
+        width: 33%px;
+        border: 2px solid white;
+        margin: 40px 40px;
+        padding: 30px 30px;
+        border-radius: 10px;
+    }
+    h1{
+        color: rgba(255, 255, 255, 0.774);
+        margin: 10px 10px;
+        padding: 10px 10px;
+        text-align: center;
+    }
+    .container input {    
+        text-align: center;    
+        display: block;
+        width: 200px;
+        margin: 7px auto;
+        padding: 7px 10px;
+        border-radius: 10px;
+    }
+    .container button{
+        text-align: center;    
+        display: block;
+        width: 230px;
+        margin: 20px auto;
+        padding: 7px 10px;
+        border-radius: 10px;
+        font-size: 15px;
+        cursor: pointer;
+    }
+</style>
+
+<body>
+    <header>
+        <div class="left">
+            <img src="logo.png" alt="gym logo">
+            <h2> <a href=""> Fitness School </a></h2>
+        </div>
+        <div class="mid">
+            <div class="nav">
+                <ul class="navbar">
+                    <li><a href="#"> Home </a></li>
+                    <li><a href="#"> Fitness Calculator </a></li>
+                    <li><a href="#"> About </a></li>
+                    <li><a href="#"> Contact Us </a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="right">
+            <button class="btn">Contact Us</button>
+            <button class="btn"> Email Us</button>
+        </div>
+    </header>
+    <div class="container">
+        <h1>Join the best Gym in Karachi</h1>
+       <form action="">
+           <input type="text" placeholder="Enter your Name">
+           <input type="text" placeholder="Enter your Age">
+           <input type="text" placeholder="Enter your BMI">
+           <input type="text" placeholder="Enter your Contact Number">
+           <button type="submit">Submit</button>
+        </form>
+    </div>
+</body>
+
+</html>
